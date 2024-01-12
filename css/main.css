@@ -205,7 +205,6 @@ h2 {
   margin-left: 13px;
   color: #fff;
   padding: 3px 9px;
-  text-align: center;
 }
 
 .section-discounts {
@@ -216,33 +215,28 @@ h2 {
   background: #fff;
   border-radius: 30px;
   display: flex;
+  padding: 25px 22px;
   justify-content: center;
-  box-sizing: border-box;
 }
 
-.section-offer {
-  padding: 25px 45px 28px 36px;
+.section-offers {
+  width: 193px;
+}
+
+.section-offers,
+.section-min {
   display: flex;
   flex-direction: column;
 }
 
 .offer-1 {
-  margin-bottom: 15px;
-}
-
-.section-offer .offer-1 {
   font-size: 17px;
+  margin-bottom: 15px;
   font-weight: bold;
 }
 
-.section-offer .offer-2 {
+.offer-2 {
   font-size: 12px;
-}
-
-.section-min {
-  margin-left: 12px;
-  display: flex;
-  flex-direction: column;
 }
 
 .section-min .min-1 {
