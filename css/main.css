@@ -120,7 +120,8 @@ h3 {
   border-style: solid;
   border-radius: 22px;
   color: rgba(0, 0, 0, 0.6);
-  width: 177px;
+  max-width: 177px;
+  width: 100%;
 }
 
 .header-button {
@@ -239,12 +240,12 @@ h2 {
   font-size: 12px;
 }
 
-.section-min .min-1 {
+.min-1 {
   font-weight: bold;
   font-size: 36px;
 }
 
-.section-min .min-2 {
+.min-2 {
   font-size: 13px;
 }
 
@@ -290,7 +291,7 @@ th {
   background: #deebe9;
 }
 
-.header-forms {
+.header-form {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -299,33 +300,37 @@ th {
   border-style: solid;
   border-radius: 18px;
   margin: 0 auto;
+  max-width: 845px;
+  width: 100%;
 }
 
-.header-forms h3 {
+.header-form h3 {
   text-transform: uppercase;
   padding-top: 37px;
   margin: 0;
 }
 
-.inner-forms {
+.inner-form {
   font-size: 13px;
   display: flex;
   text-align: center;
   justify-content: space-between;
-  width: 756px;
+  max-width: 756px;
+  width: 100%;
   padding-top: 26px;
 }
 
-.inner-forms input {
+.inner-form input {
   text-align: center;
   border: 1px rgba(0, 0, 0, 0.6);
   border-style: solid;
   border-radius: 22px;
   color: rgba(0, 0, 0, 0.6);
-  width: 177px;
+  max-width: 177px;
+  width: 100%;
 }
 
-.header-buttons {
+.header-button {
   color: #fff;
   border: #2ee5cd;
   background: #2ee5cd;
