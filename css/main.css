@@ -193,6 +193,7 @@ h2 {
 }
 
 .section-discount h4 {
+  width: 367px;
   text-align: right;
   margin: 0;
 }
@@ -216,12 +217,17 @@ h2 {
   border-radius: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  box-sizing: border-box;
 }
 
 .section-offer {
+  padding: 25px 45px 28px 36px;
   display: flex;
   flex-direction: column;
+}
+
+.offer-1 {
+  margin-bottom: 15px;
 }
 
 .section-offer .offer-1 {
@@ -263,20 +269,26 @@ h2 {
   border: 1px solid #000;
   border-radius: 30px;
   overflow: hidden;
-  width: 800px;
+  width: 876px;
   margin: 0 auto;
+  margin-top: 93px;
 }
 
-.table {
+table {
   border-collapse: collapse;
   width: calc(100% + 2px);
   margin: -1px;
 }
 
-.th,
+th,
 td {
   border: 1px solid #000;
   padding: 10px;
+}
+
+.bold,
+th {
+  font-weight: bold;
 }
 
 .four-section {
