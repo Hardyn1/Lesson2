@@ -1,41 +1,6 @@
-body {
-  font-family: tahoma, sans-serif;
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-}
-
-h1 {
-  margin: 0;
-  font-size: 34px;
-  text-transform: uppercase;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-}
-
-div {
-  box-sizing: border-box;
-}
-
-ul,
-li {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-
 header {
   background: url(../pictures/bg.png) no-repeat center top / cover;
   padding: 63px 0 292px;
-}
-
-.container {
-  max-width: 1264px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .header-nav {
@@ -45,6 +10,8 @@ header {
 }
 
 .menu {
+  align-items: center;
+  text-align: center;
   display: flex;
 }
 
@@ -89,7 +56,6 @@ header {
   max-width: 845px;
   width: 100%;
   height: 162px;
-  margin: 0 auto;
   box-shadow: 12px -13px 73px 0px rgba(0, 0, 0, 0.25);
   margin-top: -120px;
 }
@@ -100,8 +66,7 @@ header {
 
 h3 {
   text-transform: uppercase;
-  padding-top: 37px;
-  margin: 0;
+  margin: 37px 0px 26px;
 }
 
 .inner-form {
@@ -111,7 +76,6 @@ h3 {
   justify-content: space-between;
   max-width: 756px;
   width: 100%;
-  padding-top: 26px;
   margin: 0 auto;
 }
 
@@ -123,6 +87,7 @@ h3 {
   color: rgba(0, 0, 0, 0.6);
   max-width: 177px;
   width: 100%;
+  padding: 14px 34px 14px 24px;
 }
 
 .header-button {
@@ -255,7 +220,7 @@ h2 {
 }
 
 .third-section h4 {
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   font-size: 25px;
   text-transform: uppercase;
@@ -274,6 +239,7 @@ table {
   border-collapse: collapse;
   width: calc(100% + 2px);
   margin: -1px;
+  text-align: center;
 }
 
 th,
@@ -284,6 +250,7 @@ td {
 
 .bold,
 th {
+  text-align: left;
   font-weight: bold;
 }
 
@@ -303,12 +270,7 @@ th {
   margin: 0 auto;
   max-width: 845px;
   width: 100%;
-}
-
-.header-form h3 {
-  text-transform: uppercase;
-  padding-top: 37px;
-  margin: 0;
+  height: 162px;
 }
 
 .inner-form {
@@ -318,17 +280,16 @@ th {
   justify-content: space-between;
   max-width: 756px;
   width: 100%;
-  padding-top: 26px;
 }
 
 .inner-form input {
-  text-align: center;
   border: 1px rgba(0, 0, 0, 0.6);
   border-style: solid;
   border-radius: 22px;
   color: rgba(0, 0, 0, 0.6);
   max-width: 177px;
   width: 100%;
+  padding: 14px 34px 14px 24px;
 }
 
 .header-button {
@@ -362,4 +323,49 @@ th {
   font-size: 13px;
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .price-section-list {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 33px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .table-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .header-main p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .table-container {
+    width: 100%;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    gap: 18px;
+  }
 }
