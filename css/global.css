@@ -27,15 +27,12 @@ li {
   padding: 0;
 }
 
-<<<<<<< HEAD
 .container {
   max-width: 1264px;
   width: 100%;
   margin: 0 auto;
 }
 
-=======
->>>>>>> 47c7ca29f37364f0db684f441ab2ab1034419532
 @media screen and (max-width: 1400px) {
   .container {
     max-width: 1264px;
@@ -45,26 +42,11 @@ li {
   .container {
     max-width: 960px;
   }
-  .price-section-list {
-    gap: 20px;
-  }
 }
 
 @media screen and (max-width: 992px) {
   .container {
     max-width: 770px;
-  }
-  h1 {
-    font-size: 33px;
-  }
-
-  .menu {
-    flex-direction: column;
-    gap: 18px;
-  }
-
-  .table-container {
-    width: 90%;
   }
 }
 
@@ -72,27 +54,10 @@ li {
   .container {
     max-width: 540px;
   }
-
-  h1 {
-    font-size: 25px;
-  }
-
-  .header-main p {
-    font-size: 17px;
-  }
 }
 
 @media screen and (max-width: 576px) {
   .container {
     max-width: 90%;
-  }
-
-  .table-container {
-    width: 100%;
-  }
-
-  .footer-main {
-    flex-direction: column;
-    gap: 18px;
   }
 }
