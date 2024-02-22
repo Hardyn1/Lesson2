@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47c7ca29f37364f0db684f441ab2ab1034419532
 header {
   background: url(../pictures/bg.png) no-repeat center top / cover;
   padding: 63px 0 292px;
@@ -325,6 +329,7 @@ th {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1400px) {
 }
 
@@ -369,3 +374,5 @@ th {
     gap: 18px;
   }
 }
+=======
+>>>>>>> 47c7ca29f37364f0db684f441ab2ab1034419532

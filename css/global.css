@@ -27,12 +27,15 @@ li {
   padding: 0;
 }
 
+<<<<<<< HEAD
 .container {
   max-width: 1264px;
   width: 100%;
   margin: 0 auto;
 }
 
+=======
+>>>>>>> 47c7ca29f37364f0db684f441ab2ab1034419532
 @media screen and (max-width: 1400px) {
   .container {
     max-width: 1264px;
