@@ -409,9 +409,14 @@ th {
   }
 
   .section-discount {
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 95%;
+    width: 76%;
+  }
+
+  .section-discount h4 {
+    font-size: 16px;
   }
 
   .header-form__frm {
@@ -428,11 +433,21 @@ th {
   }
 
   .table-container {
-    width: 100%;
+    cursor: pointer;
+    width: 80%;
+    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: scroll;
   }
 
-  .table__table {
-    display: flex;
-    flex-direction: column;
+  .table-container::-webkit-scrollbar-track {
+    background: linear-gradient(
+      rgba(126, 126, 126, 1) 44%,
+      rgba(97, 97, 97, 1) 57%
+    );
+  }
+
+  .table-container::-webkit-scrollbar-thumb {
+    background: #777;
   }
 }
